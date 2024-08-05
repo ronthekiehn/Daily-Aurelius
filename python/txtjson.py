@@ -16,7 +16,7 @@ def txt_to_json(txt_file, json_file):
             booknum += 1
             books[booknum] = []
             index = 0
-        elif quote.startswith("-"):
+        elif quote.startswith("-") or quote.startswith("THE END"):
             continue
         else:
             index += 1
