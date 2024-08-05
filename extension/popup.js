@@ -14,7 +14,7 @@ async function getQuote() {
 function preferShortQuote(quotes) {
     let quoteIndex = Math.floor(Math.random() * quotes.length);
     let [index, quote] = quotes[quoteIndex];
-    if (quote.length > 100) {
+    if (quote.length > 170) {
         if (Math.random() < 0.95) {
             return preferShortQuote(quotes);
         }
