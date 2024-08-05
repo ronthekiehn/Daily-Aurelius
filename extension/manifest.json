@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Daily Aurelius",
+    "description": "Shows a new Marcus Aurelius quote every day",
+    "version": "1.0",
+    "permissions": [
+    "storage"
+    ],
+    "action": {
+      "default_popup": "marcus.html",
+      "default_icon": "marcuslogo.png"
+    }
+  }
+  
