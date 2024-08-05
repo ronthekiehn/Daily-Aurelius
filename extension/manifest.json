@@ -7,7 +7,7 @@
     "storage"
     ],
     "action": {
-      "default_popup": "marcus.html",
+      "default_popup": "popup.html",
       "default_icon": "marcuslogo.png"
     }
   }

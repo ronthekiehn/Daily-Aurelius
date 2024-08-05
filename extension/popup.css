@@ -1,0 +1,40 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #333;
+    margin: 10px;
+    background-color: #f8f4e3;
+    width: 200px; 
+    height: auto; 
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column;
+}
+
+#content {
+    overflow-y: auto; 
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+#text {
+    text-align: left;
+}
+
+#refresh {
+    border: none;
+    background-color: #fc0909;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.2s ease;
+    cursor: pointer;
+    max-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.2s ease;
+}
+
+#refresh:hover {
+    background-color: #ff4d4d;
+    transform: scale(1.1);
+}

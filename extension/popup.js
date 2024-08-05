@@ -5,11 +5,22 @@ async function getQuote() {
             const books = Object.keys(data);
             const bookIndex = Math.floor(Math.random() * books.length);
             const bookTitle = books[bookIndex];
-            const quotes = data[bookTitle];
-            const quoteIndex = Math.floor(Math.random() * quotes.length);
-            const [index, quote] = quotes[quoteIndex];
-            return `${bookTitle}.${index} "${quote}"`;
+            const [index, quote] = preferShortQuote(data[bookTitle]);
+            
+            return `Meditation ${bookTitle}.${index} "${quote}"`;
         });
+}
+
+function preferShortQuote(quotes) {
+    let quoteIndex = Math.floor(Math.random() * quotes.length);
+    let [index, quote] = quotes[quoteIndex];
+    if (quote.length > 100) {
+        if (Math.random() < 0.95) {
+            return preferShortQuote(quotes);
+        }
+    }
+
+    return [index, quote];
 }
 
 function setText() {
@@ -32,7 +43,6 @@ function refresh() {
         });
     });
 }
-
 document.getElementById('refresh').addEventListener('click', refresh);
 
 setText();
