@@ -29,18 +29,16 @@ body {
 
 #refresh {
     border: none;
-    background-color: #fc0909;
+    background-color: #cfcfcf;
     padding: 10px;
     border-radius: 10px;
     transition: 0.2s ease;
     cursor: pointer;
     max-width: 150px;
-    margin-left: auto;
-    margin-right: auto;
     transition: 0.2s ease;
 }
 
 #refresh:hover {
-    background-color: #ff4d4d;
+    background-color: #e8e8e8;
     transform: scale(1.1);
 }

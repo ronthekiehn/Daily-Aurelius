@@ -6,9 +6,15 @@
     "permissions": [
     "storage"
     ],
+    "icons": {
+      "16": "images/marcuslogo16.png",
+      "32": "images/marcuslogo32.png",
+      "128": "images/marcuslogo128.png",
+      "600": "images/marcuslogo.png"
+    },
     "action": {
-      "default_popup": "popup.html",
-      "default_icon": "marcuslogo.png"
+      "default_icon": "images/marcuslogo128.png",
+      "default_popup": "popup.html"
     }
   }
   
