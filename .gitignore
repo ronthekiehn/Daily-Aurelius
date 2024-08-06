@@ -164,5 +164,5 @@ cython_debug/
 #for mac
 .DS_Store
 
-#and for chrome
+#and for chrome extensions
 *.zip
