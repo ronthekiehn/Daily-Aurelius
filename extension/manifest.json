@@ -6,6 +6,9 @@
     "permissions": [
     "storage"
     ],
+    "chrome_url_overrides": {
+      "newtab": "newtab.html"
+    },
     "icons": {
       "16": "images/marcuslogo16.png",
       "32": "images/marcuslogo32.png",

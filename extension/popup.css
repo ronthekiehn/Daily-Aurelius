@@ -1,14 +1,5 @@
 body {
-    font-family: 'Georgia', serif;
-    font-size: 14px;
-    color: #333;
-    margin: 10px;
-    background-color: #f8f4e3;
     width: 250px; 
-    height: auto; 
-    overflow: hidden; 
-    display: flex;
-    flex-direction: column;
 }
 
 #content {
@@ -18,8 +9,7 @@ body {
 }
 
 #title {
-    font-size: 18px;
-    text-align: center;
+    font-size: 16px;
     margin-bottom: 10px;
 }
 
@@ -27,18 +17,9 @@ body {
     text-align: left;
 }
 
-#refresh {
-    border: none;
-    background-color: #cfcfcf;
-    padding: 10px;
-    border-radius: 10px;
-    transition: 0.2s ease;
-    cursor: pointer;
-    max-width: 150px;
-    transition: 0.2s ease;
-}
-
-#refresh:hover {
-    background-color: #e8e8e8;
-    transform: scale(1.1);
+#refresh{
+    background-size: 15px 15px;
+    max-width: 20px;
+    padding: 15px;
+    margin: 5px;
 }

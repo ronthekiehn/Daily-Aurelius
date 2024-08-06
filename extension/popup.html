@@ -1,12 +1,13 @@
 <html>
   <body>
+    <button id="refresh"></button>
     <span id="title"></span>
     <div id="content">
       <span id="text"></span>
     </div>
-    <button id="refresh">New Quote</button>
-    <p>Read the full meditations <a href="https://classics.mit.edu/Antoninus/meditations.html" target="_blank">here</a>.</p>
+    <p id="read">Read the full meditations <a href="https://classics.mit.edu/Antoninus/meditations.html" target="_blank">here</a>.</p>
     <script src="popup.js"></script>
-    <link rel="stylesheet" href="popup.css">
+    <link id="common" rel="stylesheet" href="shared.css">
+    <link id="specific" rel="stylesheet" href="popup.css">
   </body>
 </html>
